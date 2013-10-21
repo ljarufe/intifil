@@ -1,0 +1,65 @@
+[
+{
+  "pk": 1, 
+  "model": "sitemap.column", 
+  "fields": {
+    "include_intranet_link": false, 
+    "include_sitemap_link": false, 
+    "name": "First"
+  }
+},
+{
+  "pk": 2, 
+  "model": "sitemap.column", 
+  "fields": {
+    "include_intranet_link": false, 
+    "include_sitemap_link": false, 
+    "name": "Second"
+  }
+},
+{
+  "pk": 3, 
+  "model": "sitemap.column", 
+  "fields": {
+    "include_intranet_link": true, 
+    "include_sitemap_link": true, 
+    "name": "Third"
+  }
+},
+{
+  "pk": 1, 
+  "model": "sitemap.columncategory", 
+  "fields": {
+    "category": 1, 
+    "column": 1, 
+    "order": 0
+  }
+},
+{
+  "pk": 2, 
+  "model": "sitemap.columncategory", 
+  "fields": {
+    "category": 2, 
+    "column": 1, 
+    "order": 1
+  }
+},
+{
+  "pk": 3, 
+  "model": "sitemap.columncategory", 
+  "fields": {
+    "category": 3, 
+    "column": 2, 
+    "order": 0
+  }
+},
+{
+  "pk": 4, 
+  "model": "sitemap.columncategory", 
+  "fields": {
+    "category": 4, 
+    "column": 3, 
+    "order": 0
+  }
+}
+]

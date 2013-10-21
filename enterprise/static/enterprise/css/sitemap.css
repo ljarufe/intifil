@@ -1,0 +1,15 @@
+.all {
+    height: 702px;
+}
+
+@media (min-width: 680px) and (max-width: 1199px) {
+    .all {
+        height: auto;
+    }
+}
+
+@media (max-width: 679px) {
+    .all {
+        height: auto;
+    }
+}

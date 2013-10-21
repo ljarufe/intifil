@@ -1,0 +1,12 @@
+{% for category in categories %}
+    <li class="{% cycle 'first' 'second' 'third' 'fourth' %}">
+        <a href="{{ category.get_absolute_url }}">{{ category.name }}</a>
+        <ul>
+        {% for item in category.all_item_set %}
+            <li>
+                <a href="{{ item.get_absolute_url }}">{{ item }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+    </li>
+{% endfor %}

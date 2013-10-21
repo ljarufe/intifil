@@ -1,0 +1,57 @@
+{% extends 'global_presence/base.html' %}
+
+{% load compress items_tags thumbnail %}
+
+{% block extra_js %}
+  {% compress js %}
+    <script src="{{ STATIC_URL }}global_presence/js/detail.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var URL_GET_MINI = "{% url 'global_presence.get_mini_by_screen' %}";
+      var URL_GET_TEAM = "{% url 'global_presence.get_team_by_screen' %}";
+      var COUNTRY = "{{ object.id }}";
+      var GO_TO_PAGE = "{{ go_to_page }}";
+    </script>
+  {% endcompress %}
+{% endblock extra_js %}
+
+{% block flags_container %}individual_page{% endblock %}
+{% block flags_container_bg %}individual_page{% endblock %}
+
+{% block changing_content %}
+  {% for obj in team_set %}
+  <div class="global_presence_detail_main_container">
+
+    <div class="global_presence_team_image">
+      <img id="{{ obj.id }}" alt="">
+    </div> <!-- END GLOBAL_PRESENCE_TEAM_IMAGE -->
+    
+    <div class="global_presence_individual_description">
+      <div class="descripcion_container">
+	<h4 class="exact_container">{{ object.name }}</h4>
+
+	<span class="red_text">{{ obj.name }}</span>
+	<p>
+	  {{ obj.address_line_1 }}<br class="br_global_presence_info">
+	  {{ obj.address_line_2 }}<br>
+	  {{ obj.address_line_3 }}<br class="br_global_presence_info">
+	  {% if obj.address_line_4 %}
+	    {{ obj.address_line_4 }}<br/>
+	  {% endif %}
+	  Tel. {{ obj.phone }}<br class="br_global_presence_info">
+	  {{ obj.email }}
+	</p>
+	{% if not forloop.last %}
+          {% with team_set|next_in_loop:forloop.counter0 as next %}
+  	    <div class="next_page" title="{{ next.item.name }}">
+              <div class="recuadro">
+		{{ next.item.name }}
+              </div>
+            </div>
+	  {% endwith %}
+	{% endif %}
+      </div>
+    </div><!-- END GLOBAL PRESENCE INDIVIDUAL DESCRIPTION -->
+
+  </div><!-- END GLOBAL PRESENCE DETAIL MAIN CONTAINER -->
+  {% endfor %} 
+{% endblock %}

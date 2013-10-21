@@ -1,0 +1,10 @@
+*pyc
+*~
+
+intifil/public/*
+intifil/database.py
+
+.idea/*
+.gitbitbucket/*
+env/*
+:memory

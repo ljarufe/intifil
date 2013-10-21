@@ -1,0 +1,36 @@
+{% extends "common/base.html" %}
+
+{% load compress %}
+
+{% block title %}Home{% endblock title %}
+
+{% block extra_css %}
+    {% compress css %}
+        <link rel="stylesheet/less" type="text/css" href="{{ STATIC_URL }}items/css/home.less" />
+    {% endcompress %}
+{% endblock extra_css %}
+
+{% block extra_js %}
+    {% compress js %}
+        <script src="{{ STATIC_URL }}common/js/masonry.min.js" type="text/javascript"></script>
+        <script src="{{ STATIC_URL }}common/js/imagesloaded.min.js" type="text/javascript"></script>
+        <script src="{{ STATIC_URL }}common/js/jquery.ui.min.js" type="text/javascript"></script>
+        <script src="{{ STATIC_URL }}items/js/home.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            var URL_GET_PHOTOS = "{% url 'get_photos_by_screen' %}";
+            var category = "{% if category %}{{ category }}{% endif %}";
+            var menu_state = true;
+	    var homepage = true;
+        </script>
+    {% endcompress %}
+{% endblock extra_js %}
+
+{% block absolute %}
+    <div id="nav_controls"></div>
+{% endblock %}
+
+{% block content %}
+    <div id="home_content"></div>
+{% endblock content %}
+
+{% block menu_active %}{% endblock menu_active %}

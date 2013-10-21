@@ -1,0 +1,11 @@
+[
+{
+  "pk": 1, 
+  "model": "enterprise.enterprise", 
+  "fields": {
+    "logo": "photos/T5t4u55hYhcwS8XWEiN2.jpg", 
+    "message": "Inspired by the beauty of natural fibers we create and market unique yarns for the world\u2019s most prestigious fashion brands.", 
+    "name": "Intifil"
+  }
+}
+]

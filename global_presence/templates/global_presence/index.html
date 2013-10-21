@@ -1,0 +1,213 @@
+{% extends 'global_presence/base.html' %}
+
+{% load compress thumbnail %}
+
+{% block extra_css %}
+<link href='http://fonts.googleapis.com/css?family=Raleway:900' rel='stylesheet' type='text/css'>
+{% endblock extra_css %}
+
+{% block extra_js %}
+  {% compress js %}
+    <script src="{{ STATIC_URL }}global_presence/js/index.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var URL_GET_MINI = "{% url 'global_presence.get_mini_by_screen' %}";
+    </script>
+  {% endcompress %}
+{% endblock extra_js %}
+
+{% block changing_content %}
+<div class="global_presence_main_container">
+  <div class="main_map">
+
+    {% comment %}
+    <a href="#"><div class="map_button" id="button_1"></div></a>
+    <a href="#"><div class="map_button" id="button_2"></div></a>
+    <a href="#"><div class="map_button" id="button_3"></div></a>
+    <a href="#"><div class="map_button" id="button_4"></div></a>
+    <a href="#"><div class="map_button" id="button_5"></div></a>
+    <a href="#"><div class="map_button" id="button_6"></div></a>
+    <a href="#"><div class="map_button" id="button_7"></div></a>
+    <a href="#"><div class="map_button" id="button_8"></div></a>
+    <a href="#"><div class="map_button" id="button_9"></div></a>
+    <a href="#"><div class="map_button" id="button_10"></div></a>
+    <a href="#"><div class="map_button" id="button_11"></div></a>
+    {% endcomment %}
+
+    {# eeuu 1,2 italy 5,7 #}
+    {% for team in teams %}
+    <a href="#"><div class="map_button" id="button_{{ forloop.counter }}"></div></a>
+    <a href="{{ team.get_absolute_url }}">
+      <div class="team_preview" id="button_{{ forloop.counter }}">
+	<div class="text-center">
+	  <img src="{{ team.image|thumbnail_url:'gp_team_image_preview' }}" alt="{{ team.name }}">
+	</div>
+	<span class="red_text">{{ team.name }}</span><br/>
+	<strong>{{ team.country }}</strong>
+      </div>
+    </a>
+    {% endfor %}
+    <a href="#"><div class="map_button" id="button_1_2"></div></a>
+    <a href="{{ teams.0.get_absolute_url }}">
+      <div class="team_preview" id="button_1_2">
+	<div class="text-center">
+	  <img src="{{ teams.0.image|thumbnail_url:'gp_team_image_preview' }}" alt="{{ teams.0.name }}">
+	</div>
+	<span class="red_text">{{ teams.0.name }}</span><br/>
+	<strong>{{ teams.0.country }}</strong>
+      </div>
+    </a>
+    <a href="#"><div class="map_button" id="button_4_2"></div></a>
+    <a href="{{ teams.3.get_absolute_url }}">
+      <div class="team_preview" id="button_4_2">
+	<div class="text-center">
+	  <img src="{{ teams.3.image|thumbnail_url:'gp_team_image_preview' }}" alt="{{ teams.3.name }}">
+	</div>
+	<span class="red_text">{{ teams.3.name }}</span><br/>
+	<strong>{{ teams.3.country }}</strong>
+      </div>
+    </a>
+
+    
+
+    {% comment %}
+    <a href="#">
+      <div class="team_preview" id="button_1">
+	<div class="text-center">
+	  <img src="imagenes/teamwork.jpg" alt="">
+	</div>
+	<span class="red_text">SHANGHAI ZIJUE TRADING CO., LTD.</span><br/>
+	<strong>EEUU</strong>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="team_preview" id="button_2">
+	<div class="text-center">
+	  <img src="imagenes/teamwork.jpg" alt="">
+	</div>
+	<span class="red_text">SHANGHAI ZIJUE TRADING CO., LTD.</span><br/>
+	<strong>EEUU</strong>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="team_preview" id="button_3">
+	<div class="text-center">
+	  <img src="imagenes/teamwork.jpg" alt="">
+	</div>
+	<span class="red_text">SHANGHAI ZIJUE TRADING CO., LTD.</span><br/>
+	<strong>United Kingdom</strong>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="team_preview" id="button_4">
+	<div class="text-center">
+	  <img src="imagenes/teamwork.jpg" alt="">
+	</div>
+	<span class="red_text">SHANGHAI ZIJUE TRADING CO., LTD.</span><br/>
+	<strong>France</strong>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="team_preview" id="button_5">
+	<div class="text-center">
+	  <img src="imagenes/teamwork.jpg" alt="">
+	</div>
+	<span class="red_text">SHANGHAI ZIJUE TRADING CO., LTD.</span><br/>
+	<strong>Italy</strong>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="team_preview" id="button_6">
+	<div class="text-center">
+	  <img src="imagenes/teamwork.jpg" alt="">
+	</div>
+	<span class="red_text">SHANGHAI ZIJUE TRADING CO., LTD.</span><br/>
+	<strong>Germany</strong>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="team_preview" id="button_7">
+	<div class="text-center">
+	  <img src="imagenes/teamwork.jpg" alt="">
+	</div>
+	<span class="red_text">SHANGHAI ZIJUE TRADING CO., LTD.</span><br/>
+	<strong>Italy</strong>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="team_preview" id="button_8">
+	<div class="text-center">
+	  <img src="imagenes/teamwork.jpg" alt="">
+	</div>
+	<span class="red_text">SHANGHAI ZIJUE TRADING CO., LTD.</span><br/>
+	<strong>Levanon</strong>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="team_preview" id="button_9">
+	<div class="text-center">
+	  <img src="imagenes/teamwork.jpg" alt="">
+	</div>
+	<span class="red_text">SHANGHAI ZIJUE TRADING CO., LTD.</span><br/>
+	<strong>Hong Kong</strong>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="team_preview" id="button_10">
+	<div class="text-center">
+	  <img src="imagenes/teamwork.jpg" alt="">
+	</div>
+	<span class="red_text">SHANGHAI ZIJUE TRADING CO., LTD.</span><br/>
+	<strong>China</strong>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="team_preview" id="button_11">
+	<div class="text-center">
+	  <img src="imagenes/teamwork.jpg" alt="">
+	</div>
+	<span class="red_text">SHANGHAI ZIJUE TRADING CO., LTD.</span><br/>
+	<strong>Japan</strong>
+      </div>
+    </a>
+    {% endcomment %}
+
+
+  </div> <!-- END MAIN MAP -->
+
+  <div class="global_presence_descripcion">
+    <div class="descripcion_container">
+      <h4 class="exact_container">{{ object.name }}</h4>
+      {{ object.description|safe }}
+    </div>
+  </div><!-- END DESCRIPCION -->
+
+  <div class="global_presence_info_bg"></div>
+
+  <div class="global_presence_info">
+    <h1>{{ object.team_name|upper }}</h1>
+    {{ object.address_line_1 }} <br class="br_global_presence_info">
+    {{ object.address_line_2 }} <br class="br_global_presence_info">
+    {{ object.address_line_3 }} <br>
+    Tel {{ object.phone }} <br>
+    {% if object.fax %}
+    <span class="span_global_presence_info">
+      Fax {{ object.fax }} <br>
+    </span>
+    {% endif %}
+    {{ object.email }} <br class="br_global_presence_info">
+    {% if object.website %}
+    {{ object.website }}
+    {% endif %}
+  </div>
+</div> <!-- END GLOBAL PRESENCE MAIN CONTAINER -->
+{% endblock %}

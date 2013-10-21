@@ -1,0 +1,918 @@
+[
+{
+  "pk": 1, 
+  "model": "items.category", 
+  "fields": {
+    "name_it": "", 
+    "name": "Yarns", 
+    "name_en": "Yarns", 
+    "name_ja": "", 
+    "slug": "yarns", 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 2, 
+  "model": "items.category", 
+  "fields": {
+    "name_it": "", 
+    "name": "Services", 
+    "name_en": "Services", 
+    "name_ja": "", 
+    "slug": "services", 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 3, 
+  "model": "items.category", 
+  "fields": {
+    "name_it": "", 
+    "name": "Intifil", 
+    "name_en": "Intifil", 
+    "name_ja": "", 
+    "slug": "intifil", 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 4, 
+  "model": "items.category", 
+  "fields": {
+    "name_it": "", 
+    "name": "Kuna", 
+    "name_en": "Kuna", 
+    "name_ja": "", 
+    "slug": "kuna", 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 3, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "S", 
+    "image": "photos/JKtpitQNAcJi0FWViTlG.jpg"
+  }
+},
+{
+  "pk": 4, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "T", 
+    "image": "photos/qJMmHiCVAjPXWx2CLgoi.jpg"
+  }
+},
+{
+  "pk": 5, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "W", 
+    "image": "photos/hPasg6gbjLgU5zdeQLpo.jpg"
+  }
+},
+{
+  "pk": 6, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "B", 
+    "image": "photos/KuqvliOST67JabQ2iVW1.jpg"
+  }
+},
+{
+  "pk": 7, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "S", 
+    "image": "photos/66Pn37E1V2NFu1gKV2S9.jpg"
+  }
+},
+{
+  "pk": 8, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "S", 
+    "image": "photos/qsYF3QPIHxwRoPg7S4xv.jpg"
+  }
+},
+{
+  "pk": 9, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "T", 
+    "image": "photos/OIHqaNEoQz4I0UjscQpL.jpg"
+  }
+},
+{
+  "pk": 12, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "B", 
+    "image": "photos/q389qI0UPCt1lKTUh1wp.jpg"
+  }
+},
+{
+  "pk": 13, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "S", 
+    "image": "photos/Pa2zU2Rq0ld5XHU7UrNO.jpg"
+  }
+},
+{
+  "pk": 14, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "B", 
+    "image": "photos/v5vfNaWoKV6MZXpbSQBr.jpg"
+  }
+},
+{
+  "pk": 15, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "W", 
+    "image": "photos/KduXAfhm0BSPMD3QlzeI.jpg"
+  }
+},
+{
+  "pk": 16, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "T", 
+    "image": "photos/az2F3nBBWH19ygSofi39.png"
+  }
+},
+{
+  "pk": 17, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "W", 
+    "image": "photos/Huqm6oHv6oTVFd9wVkR1.jpg"
+  }
+},
+{
+  "pk": 18, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "B", 
+    "image": "photos/1LM70NONrv1Pj7XIXl5g.jpg"
+  }
+},
+{
+  "pk": 19, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "S", 
+    "image": "photos/UAxSWC4t2B60vIQzH3yL.jpg"
+  }
+},
+{
+  "pk": 20, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "W", 
+    "image": "photos/ottbzJhkGnmYZH5gdsJV.jpg"
+  }
+},
+{
+  "pk": 21, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "W", 
+    "image": "photos/3zaaFDt5nnSYeMTAxEXp.jpg"
+  }
+},
+{
+  "pk": 22, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "B", 
+    "image": "photos/70lowNjaUGW8lcb4beLr.jpg"
+  }
+},
+{
+  "pk": 23, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "W", 
+    "image": "photos/o2AIHPP1H3Iv6RWYdZeI.jpg"
+  }
+},
+{
+  "pk": 24, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "S", 
+    "image": "photos/WIl7SbkGIL05mso4DPKr.jpg"
+  }
+},
+{
+  "pk": 25, 
+  "model": "items.homephoto", 
+  "fields": {
+    "shape": "B", 
+    "image": "photos/zSyNiJAewgdcundR2UAl.jpg"
+  }
+},
+{
+  "pk": 1, 
+  "model": "items.item", 
+  "fields": {
+    "category": 1, 
+    "name_it": "", 
+    "name": "New Collection", 
+    "slug": "new-collection", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "New Collection", 
+    "name_ja": "", 
+    "order": 0, 
+    "home_photo": 4, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 2, 
+  "model": "items.item", 
+  "fields": {
+    "category": 1, 
+    "name_it": "", 
+    "name": "Alpaca", 
+    "slug": "alpaca", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Alpaca", 
+    "name_ja": "", 
+    "order": 1, 
+    "home_photo": 3, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 3, 
+  "model": "items.item", 
+  "fields": {
+    "category": 1, 
+    "name_it": "", 
+    "name": "Vicu\u00f1a", 
+    "slug": "vicuna", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Vicu\u00f1a", 
+    "name_ja": "", 
+    "order": 2, 
+    "home_photo": 5, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 4, 
+  "model": "items.item", 
+  "fields": {
+    "category": 1, 
+    "name_it": "", 
+    "name": "Pima Cotton", 
+    "slug": "pima-cotton", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Pima Cotton", 
+    "name_ja": "", 
+    "order": 3, 
+    "home_photo": 6, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 5, 
+  "model": "items.item", 
+  "fields": {
+    "category": 1, 
+    "name_it": "", 
+    "name": "Sea Island Cotton", 
+    "slug": "sea-island-cotton", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Sea Island Cotton", 
+    "name_ja": "", 
+    "order": 5, 
+    "home_photo": 7, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 6, 
+  "model": "items.item", 
+  "fields": {
+    "category": 2, 
+    "name_it": "", 
+    "name": "Silk Stock Italy", 
+    "slug": "silk-stock-italy", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Silk Stock Italy", 
+    "name_ja": "", 
+    "order": 3, 
+    "home_photo": 8, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 7, 
+  "model": "items.item", 
+  "fields": {
+    "category": 2, 
+    "name_it": "", 
+    "name": "Peru Stock / Colors", 
+    "slug": "peru-stock-colors", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Peru Stock / Colors", 
+    "name_ja": "", 
+    "order": 2, 
+    "home_photo": 9, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 9, 
+  "model": "items.item", 
+  "fields": {
+    "category": 1, 
+    "name_it": "", 
+    "name": "Silk", 
+    "slug": "silk", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Silk", 
+    "name_ja": "", 
+    "order": 6, 
+    "home_photo": 12, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 10, 
+  "model": "items.item", 
+  "fields": {
+    "category": 1, 
+    "name_it": "", 
+    "name": "Mohair", 
+    "slug": "mohair", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Mohair", 
+    "name_ja": "", 
+    "order": 7, 
+    "home_photo": 13, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 11, 
+  "model": "items.item", 
+  "fields": {
+    "category": 1, 
+    "name_it": "", 
+    "name": "Linen", 
+    "slug": "linen", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Linen", 
+    "name_ja": "", 
+    "order": 8, 
+    "home_photo": 14, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 12, 
+  "model": "items.item", 
+  "fields": {
+    "category": 1, 
+    "name_it": "", 
+    "name": "Handknit", 
+    "slug": "handknit", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Handknit", 
+    "name_ja": "", 
+    "order": 9, 
+    "home_photo": 15, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 13, 
+  "model": "items.item", 
+  "fields": {
+    "category": 2, 
+    "name_it": "", 
+    "name": "Hong Kong Stock", 
+    "slug": "hong-kong-stock", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Hong Kong Stock", 
+    "name_ja": "", 
+    "order": 1, 
+    "home_photo": 20, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 14, 
+  "model": "items.item", 
+  "fields": {
+    "category": 2, 
+    "name_it": "", 
+    "name": "Services", 
+    "slug": "services", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Services", 
+    "name_ja": "", 
+    "order": 0, 
+    "home_photo": 19, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 15, 
+  "model": "items.item", 
+  "fields": {
+    "category": 3, 
+    "name_it": "", 
+    "name": "Vision & Values", 
+    "slug": "vision-values", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Vision & Values", 
+    "name_ja": "", 
+    "order": 0, 
+    "home_photo": 21, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 16, 
+  "model": "items.item", 
+  "fields": {
+    "category": 3, 
+    "name_it": "", 
+    "name": "Corporate Social Responsibility", 
+    "slug": "corporate-social-responsibility", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Corporate Social Responsibility", 
+    "name_ja": "", 
+    "order": 1, 
+    "home_photo": 22, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 17, 
+  "model": "items.item", 
+  "fields": {
+    "category": 3, 
+    "name_it": "", 
+    "name": "History", 
+    "slug": "history", 
+    "show_sub_pages_on_sitemap": true, 
+    "name_en": "History", 
+    "name_ja": "", 
+    "order": 2, 
+    "home_photo": 23, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 18, 
+  "model": "items.item", 
+  "fields": {
+    "category": 4, 
+    "name_it": "", 
+    "name": "Kuna in Europe", 
+    "slug": "kuna-in-europe", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Kuna in Europe", 
+    "name_ja": "", 
+    "order": 0, 
+    "home_photo": 16, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 19, 
+  "model": "items.item", 
+  "fields": {
+    "category": 4, 
+    "name_it": "", 
+    "name": "Kuna Fall / Winter", 
+    "slug": "kuna-fall-winter", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Kuna Fall / Winter", 
+    "name_ja": "", 
+    "order": 1, 
+    "home_photo": 17, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 20, 
+  "model": "items.item", 
+  "fields": {
+    "category": 4, 
+    "name_it": "", 
+    "name": "Kuna Spring / Summer", 
+    "slug": "kuna-spring-summer", 
+    "show_sub_pages_on_sitemap": false, 
+    "name_en": "Kuna Spring / Summer", 
+    "name_ja": "", 
+    "order": 2, 
+    "home_photo": 18, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 1, 
+  "model": "items.subitem", 
+  "fields": {
+    "name_it": "", 
+    "description": "", 
+    "item": 3, 
+    "description_zh": "", 
+    "description_en": "", 
+    "order": 1, 
+    "description_ja": "", 
+    "description_it": "", 
+    "name_zh": "", 
+    "name_en": "Vicu\u00f1a 1", 
+    "name_ja": "", 
+    "slug": "vicuna-1", 
+    "name": "Vicu\u00f1a 1"
+  }
+},
+{
+  "pk": 2, 
+  "model": "items.subitem", 
+  "fields": {
+    "name_it": "", 
+    "description": "", 
+    "item": 3, 
+    "description_zh": "", 
+    "description_en": "", 
+    "order": 2, 
+    "description_ja": "", 
+    "description_it": "", 
+    "name_zh": "", 
+    "name_en": "Vicu\u00f1a 2", 
+    "name_ja": "", 
+    "slug": "vicuna-2", 
+    "name": "Vicu\u00f1a 2"
+  }
+},
+{
+  "pk": 3, 
+  "model": "items.subitem", 
+  "fields": {
+    "name_it": "", 
+    "description": "", 
+    "item": 3, 
+    "description_zh": "", 
+    "description_en": "", 
+    "order": 3, 
+    "description_ja": "", 
+    "description_it": "", 
+    "name_zh": "", 
+    "name_en": "Vicu\u00f1a 3", 
+    "name_ja": "", 
+    "slug": "vicuna-3", 
+    "name": "Vicu\u00f1a 3"
+  }
+},
+{
+  "pk": 4, 
+  "model": "items.subitem", 
+  "fields": {
+    "name_it": "", 
+    "description": "", 
+    "item": 15, 
+    "description_zh": "", 
+    "description_en": "", 
+    "order": null, 
+    "description_ja": "", 
+    "description_it": "", 
+    "name_zh": "", 
+    "name_en": "Vision & Values 1", 
+    "name_ja": "", 
+    "slug": "vision-values-1", 
+    "name": "Vision & Values 1"
+  }
+},
+{
+  "pk": 5, 
+  "model": "items.subitem", 
+  "fields": {
+    "name_it": "", 
+    "description": "", 
+    "item": 16, 
+    "description_zh": "", 
+    "description_en": "", 
+    "order": 1, 
+    "description_ja": "", 
+    "description_it": "", 
+    "name_zh": "", 
+    "name_en": "Corporate Social Responsibility 2", 
+    "name_ja": "", 
+    "slug": "corporate-social-responsibility-2", 
+    "name": "Corporate Social Responsibility 2"
+  }
+},
+{
+  "pk": 6, 
+  "model": "items.subitem", 
+  "fields": {
+    "name_it": "", 
+    "description": "", 
+    "item": 16, 
+    "description_zh": "", 
+    "description_en": "", 
+    "order": 2, 
+    "description_ja": "", 
+    "description_it": "", 
+    "name_zh": "", 
+    "name_en": "Corporate Social Responsibility 1", 
+    "name_ja": "", 
+    "slug": "corporate-social-responsibility-1", 
+    "name": "Corporate Social Responsibility 1"
+  }
+},
+{
+  "pk": 7, 
+  "model": "items.subitem", 
+  "fields": {
+    "name_it": "", 
+    "description": "", 
+    "item": 17, 
+    "description_zh": "", 
+    "description_en": "", 
+    "order": 0, 
+    "description_ja": "", 
+    "description_it": "", 
+    "name_zh": "", 
+    "name_en": "History 1", 
+    "name_ja": "", 
+    "slug": "history-1", 
+    "name": "History 1"
+  }
+},
+{
+  "pk": 8, 
+  "model": "items.subitem", 
+  "fields": {
+    "name_it": "", 
+    "description": "", 
+    "item": 17, 
+    "description_zh": "", 
+    "description_en": "", 
+    "order": 1, 
+    "description_ja": "", 
+    "description_it": "", 
+    "name_zh": "", 
+    "name_en": "History 2", 
+    "name_ja": "", 
+    "slug": "history-2", 
+    "name": "History 2"
+  }
+},
+{
+  "pk": 9, 
+  "model": "items.subitem", 
+  "fields": {
+    "name_it": "", 
+    "description": "", 
+    "item": 17, 
+    "description_zh": "", 
+    "description_en": "", 
+    "order": 2, 
+    "description_ja": "", 
+    "description_it": "", 
+    "name_zh": "", 
+    "name_en": "History 3", 
+    "name_ja": "", 
+    "slug": "history-3", 
+    "name": "History 3"
+  }
+},
+{
+  "pk": 10, 
+  "model": "items.subitem", 
+  "fields": {
+    "name_it": "", 
+    "description": "", 
+    "item": 1, 
+    "description_zh": "", 
+    "description_en": "", 
+    "order": 1, 
+    "description_ja": "", 
+    "description_it": "", 
+    "name_zh": "", 
+    "name_en": "New Collection 1", 
+    "name_ja": "", 
+    "slug": "new-collection-1", 
+    "name": "New Collection 1"
+  }
+},
+{
+  "pk": 11, 
+  "model": "items.subitem", 
+  "fields": {
+    "name_it": "", 
+    "description": "", 
+    "item": 1, 
+    "description_zh": "", 
+    "description_en": "", 
+    "order": 2, 
+    "description_ja": "", 
+    "description_it": "", 
+    "name_zh": "", 
+    "name_en": "New Collection 2", 
+    "name_ja": "", 
+    "slug": "new-collection-2", 
+    "name": "New Collection 2"
+  }
+},
+{
+  "pk": 12, 
+  "model": "items.subitem", 
+  "fields": {
+    "name_it": "", 
+    "description": "", 
+    "item": 1, 
+    "description_zh": "", 
+    "description_en": "", 
+    "order": 3, 
+    "description_ja": "", 
+    "description_it": "", 
+    "name_zh": "", 
+    "name_en": "New Collection 3", 
+    "name_ja": "", 
+    "slug": "new-collection-3", 
+    "name": "New Collection 3"
+  }
+},
+{
+  "pk": 1, 
+  "model": "items.photo", 
+  "fields": {
+    "name_it": "", 
+    "name": "Photo 1", 
+    "image": "photos/C95kUDqptH8Px3zOOBcb.jpg", 
+    "subitem": 1, 
+    "name_en": "Photo 1", 
+    "name_ja": "", 
+    "order": 1, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 2, 
+  "model": "items.photo", 
+  "fields": {
+    "name_it": "", 
+    "name": "Photo 2", 
+    "image": "photos/FHUnecOy7potRi9rLhfS.jpg", 
+    "subitem": 1, 
+    "name_en": "Photo 2", 
+    "name_ja": "", 
+    "order": 2, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 3, 
+  "model": "items.photo", 
+  "fields": {
+    "name_it": "", 
+    "name": "Photo 3", 
+    "image": "photos/s81Dka7fo5eCqY7nT3NN.jpg", 
+    "subitem": 1, 
+    "name_en": "Photo 3", 
+    "name_ja": "", 
+    "order": 3, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 4, 
+  "model": "items.photo", 
+  "fields": {
+    "name_it": "", 
+    "name": "Photo 1", 
+    "image": "photos/0R6k7PEHAXW6bugJu6ZQ.jpg", 
+    "subitem": 10, 
+    "name_en": "Photo 1", 
+    "name_ja": "", 
+    "order": 0, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 5, 
+  "model": "items.photo", 
+  "fields": {
+    "name_it": "", 
+    "name": "Photo 2", 
+    "image": "photos/Spq6tVY5N8rYwJgRQJua.jpeg", 
+    "subitem": 10, 
+    "name_en": "Photo 2", 
+    "name_ja": "", 
+    "order": 1, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 6, 
+  "model": "items.photo", 
+  "fields": {
+    "name_it": "", 
+    "name": "Photo 3", 
+    "image": "photos/kgPIUXShCekJXTYCjLra.jpeg", 
+    "subitem": 10, 
+    "name_en": "Photo 3", 
+    "name_ja": "", 
+    "order": 2, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 7, 
+  "model": "items.photo", 
+  "fields": {
+    "name_it": "", 
+    "name": "Photo 1", 
+    "image": "photos/TExj8hfyDr5PW2kn0k90.jpg", 
+    "subitem": 11, 
+    "name_en": "Photo 1", 
+    "name_ja": "", 
+    "order": 1, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 8, 
+  "model": "items.photo", 
+  "fields": {
+    "name_it": "", 
+    "name": "Photo 2", 
+    "image": "photos/xB5ukaPoFD670VmVVkyO.jpeg", 
+    "subitem": 11, 
+    "name_en": "Photo 2", 
+    "name_ja": "", 
+    "order": 2, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 9, 
+  "model": "items.photo", 
+  "fields": {
+    "name_it": "", 
+    "name": "p1", 
+    "image": "photos/1r9jLkoAf6XiPKCrDmAy.jpg", 
+    "subitem": 12, 
+    "name_en": "p1", 
+    "name_ja": "", 
+    "order": 0, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 1, 
+  "model": "items.video", 
+  "fields": {
+    "name_it": "", 
+    "name": "v2", 
+    "url": "http://www.youtube.com/watch?v=MZkS6VMbpFM", 
+    "subitem": 10, 
+    "name_en": "v2", 
+    "name_ja": "", 
+    "order": 0, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 2, 
+  "model": "items.video", 
+  "fields": {
+    "name_it": "", 
+    "name": "v1", 
+    "url": "http://youtu.be/MZkS6VMbpFM", 
+    "subitem": 10, 
+    "name_en": "v1", 
+    "name_ja": "", 
+    "order": 0, 
+    "name_zh": ""
+  }
+},
+{
+  "pk": 3, 
+  "model": "items.video", 
+  "fields": {
+    "name_it": "", 
+    "name": "1", 
+    "url": "http://vimeo.com/71284879", 
+    "subitem": 12, 
+    "name_en": "1", 
+    "name_ja": "", 
+    "order": 0, 
+    "name_zh": ""
+  }
+}
+]

@@ -1,0 +1,87 @@
+[
+{
+  "pk": 1, 
+  "model": "teams.item", 
+  "fields": {
+    "category": 3, 
+    "name": "Team", 
+    "slug": "team", 
+    "home_photo": 24, 
+    "order": 3, 
+    "show_sub_pages_on_sitemap": false
+  }
+},
+{
+  "pk": 1, 
+  "model": "teams.team", 
+  "fields": {
+    "name": "Team 1", 
+    "photo": "photos/smkA6EjwIseYGbayqulJ.jpg", 
+    "order": 0, 
+    "item": 1, 
+    "mini_photo": "photos/tTtwDSrmxRdjJXMa5en1.jpg", 
+    "slug": "team-1", 
+    "description": "<p><span>We are a small, dedicated team. From our headquarters in Central Switzerland we overlook Lake Zurich. In our daily business we coordinate production facilities and take care of our customer's requests.</span><br /><span>Swiss precision and hands-on approach are part of our trademark. Passion for yarns of excellence and passion in life define us.</span></p>"
+  }
+},
+{
+  "pk": 1, 
+  "model": "teams.teammember", 
+  "fields": {
+    "photo": "photos/M2WDpBupyPCU610tcjZX.jpg", 
+    "team": 1, 
+    "name": "team member 1", 
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut libero odio. Mauris sit amet vehicula nunc. Sed scelerisque quis magna eget tincidunt. Nunc consequat arcu ac mi tincidunt condimentum. Proin tincidunt nulla sed lobortis ornare."
+  }
+},
+{
+  "pk": 2, 
+  "model": "teams.teammember", 
+  "fields": {
+    "photo": "photos/DOC1GPlJRGTWoMVcEU6A.jpg", 
+    "team": 1, 
+    "name": "team member 2", 
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut libero odio. Mauris sit amet vehicula nunc. Sed scelerisque quis magna eget tincidunt. Nunc consequat arcu ac mi tincidunt condimentum. Proin tincidunt nulla sed lobortis ornare."
+  }
+},
+{
+  "pk": 3, 
+  "model": "teams.teammember", 
+  "fields": {
+    "photo": "photos/F5a8Ia3edVvjOubiWHhr.jpg", 
+    "team": 1, 
+    "name": "team member 3", 
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut libero odio. Mauris sit amet vehicula nunc. Sed scelerisque quis magna eget tincidunt. Nunc consequat arcu ac mi tincidunt condimentum. Proin tincidunt nulla sed lobortis ornare."
+  }
+},
+{
+  "pk": 4, 
+  "model": "teams.teammember", 
+  "fields": {
+    "photo": "photos/qSjsEMUqkOTD6n07fXVw.jpg", 
+    "team": 1, 
+    "name": "Team member 4", 
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut libero odio. Mauris sit amet vehicula nunc. Sed scelerisque quis magna eget tincidunt. Nunc consequat arcu ac mi tincidunt condimentum. Proin tincidunt nulla sed lobortis ornare."
+  }
+},
+{
+  "pk": 5, 
+  "model": "teams.teammember", 
+  "fields": {
+    "photo": "photos/WggISacsviofFUNaD2Nz.jpg", 
+    "team": 1, 
+    "name": "Team member 5", 
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut libero odio. Mauris sit amet vehicula nunc. Sed scelerisque quis magna eget tincidunt. Nunc consequat arcu ac mi tincidunt condimentum. Proin tincidunt nulla sed lobortis ornare."
+  }
+},
+{
+  "pk": 6, 
+  "model": "teams.teammember", 
+  "fields": {
+    "photo": "photos/CMuphWxJ8OFbN3qVDx08.jpg", 
+    "team": 1, 
+    "name": "Team member 6", 
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut libero odio. Mauris sit amet vehicula nunc. Sed scelerisque quis magna eget tincidunt. Nunc consequat arcu ac mi tincidunt condimentum. Proin tincidunt nulla sed lobortis ornare."
+  }
+}
+]

@@ -1,0 +1,46 @@
+{% extends "admin/base_site.html" %}
+
+{% load i18n admin_static thumbnail compress %}
+
+{% block title %}Order images{% endblock %}
+
+{% block extrahead %}
+    {{ block.super }}
+    {% compress js %}
+        <script type="text/javascript" src="{{ STATIC_URL }}common/js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}common/js/jquery.ui.min.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}items/js/reorder_home_items.js"></script>
+    {% endcompress %}
+{% endblock %}
+
+{% block extrastyle %}
+    {{ block.super }}
+    {% compress css %}
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}items/css/reorder_home_items.css" />
+    {% endcompress %}
+{% endblock %}
+
+{% block content %}
+    <div>
+        <h2>Reorder home photos</h2>
+        <p>You can drag and drop to reorder on the homepage.</p>
+    </div>
+    <div>
+        <ul id="sortable">
+        {% for item in items %}
+            <li id_item="{{ item.id }}">
+                <h3>{{ item.name }}</h3>
+                <img src="{% thumbnail item.home_photo.image 150x120 crop upscale %}" />
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+    <div class="clear"></div>
+    <div>
+        <form method="post" action="" id="id_form">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" value="Save" id="save_input" />
+        </form>
+    </div>
+{% endblock %}

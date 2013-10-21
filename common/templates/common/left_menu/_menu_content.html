@@ -1,0 +1,13 @@
+{% load items_tags %}
+
+<div class="menu no_bg">
+  <ul>
+    {% get_menu %}
+    <li class="fifth {% block menu_intranet %}{% endblock %}">
+      <a href="{% url 'admin:index' %}">Intranet</a>
+    </li>
+    <li class="last {% block menu_sitemap %}{% endblock %}">
+      <a href="{% url 'sitemap.index' %}">Sitemap</a>
+    </li>
+  </ul>
+</div>

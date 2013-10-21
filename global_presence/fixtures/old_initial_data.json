@@ -1,0 +1,267 @@
+[
+{
+  "pk": 1, 
+  "model": "global_presence.item", 
+  "fields": {
+    "website": "http://www.intifil.com/", 
+    "category": 3, 
+    "fax": "+41 44 787 70 04 ", 
+    "name": "Global Presence", 
+    "slug": "intifil-sa", 
+    "description": "<p>We are present in all major markets throgh a network of dedicated agents <a href=\"#\">Meet our team</a> and contact us directly or through one of our agents.</p>", 
+    "flag_image": "photos/fZzNVOF0htrrgIPPfWR2.jpg", 
+    "email": "info@intifil.com", 
+    "phone": "+41 44 787 70 00", 
+    "show_sub_pages_on_sitemap": true, 
+    "team_name": "Intifil SA", 
+    "order": 4, 
+    "address_line_2": "8834 Schindellegi", 
+    "address_line_3": "Switzerland ", 
+    "home_photo": 25, 
+    "address_line_1": "Neuhofstrasse 8 "
+  }
+},
+{
+  "pk": 1, 
+  "model": "global_presence.country", 
+  "fields": {
+    "item": 1, 
+    "order": 0, 
+    "name": "United States", 
+    "flag_image": "photos/O1SIfDM4z0vLNyPZAkHc.jpg", 
+    "slug": "united-states"
+  }
+},
+{
+  "pk": 2, 
+  "model": "global_presence.country", 
+  "fields": {
+    "item": 1, 
+    "order": 1, 
+    "name": "Japan", 
+    "flag_image": "photos/7nagp4qpI5dO0sMGrHCO.jpg", 
+    "slug": "japan"
+  }
+},
+{
+  "pk": 3, 
+  "model": "global_presence.country", 
+  "fields": {
+    "item": 1, 
+    "order": 2, 
+    "name": "Hong Kong", 
+    "flag_image": "photos/hwliRDRpNRrvVgDWo3Ti.png", 
+    "slug": "hong-kong"
+  }
+},
+{
+  "pk": 4, 
+  "model": "global_presence.country", 
+  "fields": {
+    "item": 1, 
+    "order": 3, 
+    "name": "China", 
+    "flag_image": "photos/agiZ5OYElxd5riDrSk2p.jpg", 
+    "slug": "china"
+  }
+},
+{
+  "pk": 5, 
+  "model": "global_presence.country", 
+  "fields": {
+    "item": 1, 
+    "order": 4, 
+    "name": "United Kingdom", 
+    "flag_image": "photos/PyWEnXUAcWtJOF0XaOdE.jpg", 
+    "slug": "united-kingdom"
+  }
+},
+{
+  "pk": 6, 
+  "model": "global_presence.country", 
+  "fields": {
+    "item": 1, 
+    "order": 5, 
+    "name": "Italy", 
+    "flag_image": "photos/86uwUGtajhKuglHiby1y.jpg", 
+    "slug": "italy"
+  }
+},
+{
+  "pk": 7, 
+  "model": "global_presence.country", 
+  "fields": {
+    "item": 1, 
+    "order": 6, 
+    "name": "Germany", 
+    "flag_image": "photos/OOfxI2rZr5KfUGjN677Y.jpg", 
+    "slug": "germany"
+  }
+},
+{
+  "pk": 8, 
+  "model": "global_presence.country", 
+  "fields": {
+    "item": 1, 
+    "order": 7, 
+    "name": "France", 
+    "flag_image": "photos/zv8AVf4Y1Puly94byUNr.jpg", 
+    "slug": "france"
+  }
+},
+{
+  "pk": 9, 
+  "model": "global_presence.country", 
+  "fields": {
+    "item": 1, 
+    "order": 8, 
+    "name": "Levanon", 
+    "flag_image": "photos/plOYXWUC6fFLvIiw2sPb.png", 
+    "slug": "levanon"
+  }
+},
+{
+  "pk": 1, 
+  "model": "global_presence.team", 
+  "fields": {
+    "slug": "eeuu-team", 
+    "name": "EEUU team", 
+    "country": 1, 
+    "image": "photos/AwzrazYz01aubvVllxoG.jpg", 
+    "email": "xiang79811@163.com", 
+    "phone": "+86 21 54997215", 
+    "address_line_4": "201103, China", 
+    "address_line_2": "Yishan Road Minghang", 
+    "address_line_3": "District Shangai,", 
+    "address_line_1": "6I, Hechuan Builng No. 2016"
+  }
+},
+{
+  "pk": 2, 
+  "model": "global_presence.team", 
+  "fields": {
+    "slug": "uk-team", 
+    "name": "uk team", 
+    "country": 5, 
+    "image": "photos/K9TnSwOR6yRSMn75920g.jpg", 
+    "email": "xiang79811@163.com", 
+    "phone": "+86 21 54997215", 
+    "address_line_4": "201103, China", 
+    "address_line_2": "Yishan Road Minghang", 
+    "address_line_3": "District Shangai,", 
+    "address_line_1": "6I, Hechuan Builng No. 2016"
+  }
+},
+{
+  "pk": 3, 
+  "model": "global_presence.team", 
+  "fields": {
+    "slug": "france-team", 
+    "name": "france team", 
+    "country": 8, 
+    "image": "photos/LWVNkeyljweQOOa0RHTH.jpg", 
+    "email": "xiang79811@163.com", 
+    "phone": "+86 21 54997215", 
+    "address_line_4": "201103, China", 
+    "address_line_2": "Yishan Road Minghang", 
+    "address_line_3": "District Shangai,", 
+    "address_line_1": "6I, Hechuan Builng No. 2016"
+  }
+},
+{
+  "pk": 4, 
+  "model": "global_presence.team", 
+  "fields": {
+    "slug": "italy-team", 
+    "name": "Italy team", 
+    "country": 6, 
+    "image": "photos/z3PA5dno2PVpPayqTHKL.jpg", 
+    "email": "xiang79811@163.com", 
+    "phone": "+86 21 54997215", 
+    "address_line_4": "201103, China", 
+    "address_line_2": "Yishan Road Minghang", 
+    "address_line_3": "District Shangai,", 
+    "address_line_1": "6I, Hechuan Builng No. 2016"
+  }
+},
+{
+  "pk": 5, 
+  "model": "global_presence.team", 
+  "fields": {
+    "slug": "germany-team", 
+    "name": "Germany team", 
+    "country": 7, 
+    "image": "photos/P5mYepmv2YAlEYPhuEeJ.jpg", 
+    "email": "xiang79811@163.com", 
+    "phone": "+86 21 54997215", 
+    "address_line_4": "201103, China", 
+    "address_line_2": "Yishan Road Minghang", 
+    "address_line_3": "District Shangai,", 
+    "address_line_1": "6I, Hechuan Builng No. 2016"
+  }
+},
+{
+  "pk": 6, 
+  "model": "global_presence.team", 
+  "fields": {
+    "slug": "levanon-team", 
+    "name": "Levanon team", 
+    "country": 9, 
+    "image": "photos/dth7zhB7s9aPNF2sbx0Q.jpg", 
+    "email": "xiang79811@163.com", 
+    "phone": "+86 21 54997215", 
+    "address_line_4": "201103, China", 
+    "address_line_2": "Yishan Road Minghang", 
+    "address_line_3": "District Shangai,", 
+    "address_line_1": "6I, Hechuan Builng No. 2016"
+  }
+},
+{
+  "pk": 7, 
+  "model": "global_presence.team", 
+  "fields": {
+    "slug": "hong-kong-team", 
+    "name": "Hong Kong team", 
+    "country": 3, 
+    "image": "photos/A4fjbAz7RLF0hfntPaMP.jpg", 
+    "email": "xiang79811@163.com", 
+    "phone": "+86 21 54997215", 
+    "address_line_4": "201103, China", 
+    "address_line_2": "Yishan Road Minghang", 
+    "address_line_3": "District Shangai,", 
+    "address_line_1": "6I, Hechuan Builng No. 2016"
+  }
+},
+{
+  "pk": 8, 
+  "model": "global_presence.team", 
+  "fields": {
+    "slug": "china-team", 
+    "name": "China team", 
+    "country": 4, 
+    "image": "photos/RoubTlDoLDoXwb2KsJ5k.jpg", 
+    "email": "xiang79811@163.com", 
+    "phone": "+86 21 54997215", 
+    "address_line_4": "201103, China", 
+    "address_line_2": "Yishan Road Minghang", 
+    "address_line_3": "District Shangai,", 
+    "address_line_1": "6I, Hechuan Builng No. 2016"
+  }
+},
+{
+  "pk": 9, 
+  "model": "global_presence.team", 
+  "fields": {
+    "slug": "japan-team", 
+    "name": "Japan team", 
+    "country": 2, 
+    "image": "photos/jWKhZzidxx5loHVdXNXl.jpg", 
+    "email": "xiang79811@163.com", 
+    "phone": "+86 21 54997215", 
+    "address_line_4": "201103, China", 
+    "address_line_2": "Yishan Road Minghang", 
+    "address_line_3": "District Shangai,", 
+    "address_line_1": "6I, Hechuan Builng No. 2016"
+  }
+}
+]

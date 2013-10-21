@@ -1,0 +1,144 @@
+{% extends "common/base.html" %}
+
+{% load compress thumbnail items_tags %}
+
+{% block title %}Team: {{ object }}{% endblock title %}
+
+{% block extra_js %}
+    {% compress js %}
+        <script src="{{ STATIC_URL }}teams/js/team_detail.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            var URL_GET_MINI = "{% url 'get_teammini_by_screen' %}";
+	    var URL_GET_PHOTO = "{% url 'get_teamphoto_by_screen' object.slug %}";
+	    var ITEM_SLUG = "{{ object.item.slug }}";
+	    var URL_GET_TEAMMEMBERS_PHOTO = "{% url 'get_teammember_photos_by_screen' %}"
+        </script>
+    {% endcompress %}
+{% endblock extra_js %}
+
+{% block nav %}{% endblock %}
+
+{% block menu %}{% endblock %}
+
+{% block content %}
+    <div id="team_first_block" class="team_block">
+
+        {% include 'common/left_menu/slides_menu.html' %}
+
+	{% include 'common/slide_logo.html' %}
+
+        <div class="team_preview_container"></div> <!-- END TEAM PREVIEW CONTAINER -->
+
+        <div class="team_big_image_container">
+            <img src="" alt="">
+        </div> <!-- END TEAM BIG IMAGE CONTAINER -->
+
+        <div class="team_description">
+            <div class="descripcion_container">
+                <h4 class="exact_container">{{ object.name }}</h4>
+                <div class="small_text">
+                    {{ object.description|safe }}
+                </div>
+                <div class="next_page">
+                    <div class="recuadro">
+                        Peru<br>
+                        Textile Heritage
+                    </div>
+                </div>
+
+            </div>
+        </div><!-- END TEAM DESCRIPCION -->
+
+        <div class="team_info">
+            <h1>INTIFIL SA</h1>
+            Neuhofstrasse 8 <br class="br_global_presence_info">
+            8834 Schindellegi <br class="br_global_presence_info">
+            Switzerland <br>
+            Tel +41 44 787 70 00 <br>
+              <span class="span_global_presence_info">
+            Fax +41 44 787 70 04 <br>
+              </span>
+            info@intifil.com <br class="br_global_presence_info">
+            www.intifil.com
+        </div> <!-- END TEAM INFO -->
+    </div><!-- END TEAM FIRST BLOCK -->
+
+    <div id="team_second_block" class="team_block">
+
+        {% include 'common/left_menu/slides_menu.html' %}
+
+	{% include 'common/slide_logo.html' %}
+
+        {% with object.teammember_set.all as members %}
+	  {% if members.0 %}
+            <div class="teammate first">
+                <img id="tm_0" alt="{{ members.0.name }}">
+		{% comment %}
+                <img src="{% thumbnail members.0.photo "200x280" crop upscale %}" alt="{{ members.0.name }}">
+		{% endcomment %}
+            </div>
+
+            <div class="teammate description first_elem">
+              <div class="name text-right">{{ members.0.name }}</div>
+              {{ members.0.description }}
+            </div>
+	  {% endif %}
+
+	  {% if members.1 %}
+            <div class="teammate second">
+                <img id="tm_1" src="{% thumbnail members.1.photo "200x360" crop upscale %}" alt="{{ members.1.name }}">
+            </div>
+
+            <div class="teammate description second_elem">
+              <div class="name">{{ members.1.name }}</div>
+              {{ members.1.description }}
+            </div>
+	  {% endif %}
+
+	  {% if members.2 %}
+            <div class="teammate third">
+                <img id="tm_2" src="{% thumbnail members.2.photo "200x280" crop upscale %}" alt="{{ members.2.name }}">
+            </div>
+
+            <div class="teammate description third_elem">
+              <div class="name">{{ members.2.name }}</div>
+              {{ members.2.description }}
+            </div>
+	  {% endif %}
+
+	  {% if members.3 %}
+            <div class="teammate fourth">
+                <img id="tm_3" src="{% thumbnail members.3.photo "360x200" crop upscale %}" alt="{{ members.3.name }}">
+            </div>
+
+            <div class="teammate description fourth_elem">
+              <div class="name text-right">{{ members.3.name }}</div>
+              {{ members.3.description }}
+            </div>
+	  {% endif %}
+
+	  {% if members.4 %}
+            <div class="teammate fifth">
+                <img id="tm_4" src="{% thumbnail members.4.photo "200x360" crop upscale %}" alt="{{ members.4.name }}">
+            </div>
+
+            <div class="teammate description fifth_elem">
+              <div class="name text-right">{{ members.4.name }}</div>
+              {{ members.4.description }}
+            </div>
+	  {% endif %}
+
+	  {% if members.5 %}
+            <div class="teammate sixth">
+                <img id="tm_5" src="{% thumbnail members.5.photo "466x200" crop upscale %}" alt="{{ members.5.name }}">
+            </div>
+
+            <div class="teammate description sixth_elem">
+              <div class="name text-right">{{ members.5.name }}</div>
+              {{ members.5.description }}
+            </div>
+	  {% endif %}
+
+        {% endwith %}
+    </div><!-- END TEAM SECOND BLOCK -->
+{% endblock content %}

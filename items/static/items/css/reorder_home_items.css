@@ -1,0 +1,19 @@
+#sortable {
+    margin: 0;
+    padding: 0;
+}
+#sortable li {
+    list-style-type: none;
+    margin: 3px 3px 3px 0;
+    padding: 0 11px 8px;
+    float: left;
+    border: 1px solid gray;
+}
+.ui-sortable-helper {
+    border: 1px dotted !important;
+}
+.ui-state-highlight {
+    width: 150px;
+    height: 154px;
+    border: 1px dotted red !important;
+}
